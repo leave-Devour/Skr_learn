@@ -11,5 +11,5 @@
 
 分数如下:
 
-[图片]()
+[图片](https://github.com/leave-Devour/Skr_learn/blob/main/Second_week/Snipaste_2021-02-20_23-48-10.png)
 
