@@ -4,3 +4,12 @@
 - 完成 DataLab（各种位运算脑壳疼
 - 完成boom_lab
 
+# 第三周总结
+
+- sudo 第三种的exp，本地测过可行（但那个time要自己调整
+- malloc_lab
+
+分数如下:
+
+[图片]()
+
