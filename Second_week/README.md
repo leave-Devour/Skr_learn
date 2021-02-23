@@ -11,7 +11,7 @@
 
 分数如下:
 
-![img](https://github.com/leave-Devour/Skr_learn/blob/main/First_week/images/Snipaste_2021-02-20_23-48-10.png)
+![img](https://github.com/leave-Devour/Skr_learn/blob/main/First_week/imgages/Snipaste_2021-02-20_23-48-10.png)
 
 - 程序是如何加载进内存
 
