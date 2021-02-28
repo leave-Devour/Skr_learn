@@ -10,5 +10,5 @@
 
 分数：
 
-![image-20210228173442032](./images/mage-20210228173442032.png)
+![image-20210228173442032](https://github.com/leave-Devour/Skr_learn/blob/main/Fourth%20week/images/image-20210228173442032.png)
 
