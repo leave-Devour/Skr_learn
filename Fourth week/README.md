@@ -8,11 +8,11 @@
 
 chunk的结构
 
+```
 |   size      |     fd         |
-|    bk       |      data    |
-|pre_size |
-
-
+|    bk       |      data      |
+|  pre_size   |
+```
 
 对于size<0x140的 每0x10为一个bin组，类似于tacahe，但是这个我使用的是往后插入，没有在链表前面插入，这样的效率会比前面的差
 
