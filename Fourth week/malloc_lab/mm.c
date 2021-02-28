@@ -283,10 +283,19 @@ void insert(void *elem,void *queue){
         PUT(FD(elem),queue);
         PUT(BK(elem),0);
     }
+    /*
     else{
 	e = GET(queue);
         for(;GET(BK(e))!=0;e=GET(BK(e)));
         inset_Node(elem,e);
+    }
+    */
+    else{
+        e = GET(queue);
+        PUT(queue,elem);
+        PUT(FD(elem),queue);
+        PUT(BK(elem),e);
+        PUT(FD(e),elem);
     }
 }   
 
@@ -379,7 +388,7 @@ void *mm_realloc(void *ptr, size_t size)
     size_t old_size=0;
     size_t p = GET(HDRP(oldptr));
     old_size = GET_SIZE(HDRP(oldptr));
-        if (size <= DSIZE) size = 2 *DSIZE;
+        if (size ==0) mm_free(ptr);
     else 
         size  = DSIZE  + ALIGN(size);
     char *nextblk=NEXT_BLKP(ptr);
